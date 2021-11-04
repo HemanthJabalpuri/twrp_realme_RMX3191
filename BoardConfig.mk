@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/RMX3195
+DEVICE_PATH := device/realme/RMX3191
 
 # Architecture
 TARGET_ARCH := arm64
@@ -42,7 +42,7 @@ TARGET_USES_UEFI := true
 TARGET_BOARD_PLATFORM := mt6768
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX3195,rmx3195
+TARGET_OTA_ASSERT_DEVICE := RMX3191,rmx3191
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
